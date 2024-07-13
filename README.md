@@ -1,4 +1,4 @@
-# To run this task on your machine just follow intructions below: 
+# To run this task on your machine just follow instructions below: 
 
 1- Download the task folder  <br />
 2- open task folder in vscode <br />
