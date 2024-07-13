@@ -24,7 +24,7 @@ function App() {
       const combinedData = customers.map((customer) => ({
         ...customer,
         transactions: transactions.filter(
-          (transaction) => transaction.customer_id == customer.id
+          (transaction) => +transaction.customer_id === +customer.id
         ),
       }));
 
